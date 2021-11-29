@@ -1,0 +1,19 @@
+doublerAppend(extraLargeArray) 4.5195 ms
+doublerInsert(extraLargeArray) 1.2333876 s
+
+doublerAppend(largeArray) 943.7 μs
+doublerInsert(largeArray) 11.2207 ms
+
+doublerAppend(mediumArray) 276.1 μs
+doublerInsert(mediumArray) 358.2 μs
+
+doublerAppend(smallArray) 149.4 μs
+doublerInsert(smallArray) 65.7 μs
+
+doublerAppend(tinyArray) 128.4 μs
+doublerInsert(tinyArray) 48.8 μs
+
+
+The append function scales better. Although the insert function started faster, 
+by the medium array it began to take longer than the append function and after the large array was 
+taking a much longer amount of time to run than the append function.
